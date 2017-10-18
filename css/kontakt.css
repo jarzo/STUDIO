@@ -1,0 +1,105 @@
+/*
+	Kontakt-home style start
+*/
+
+#kontakt-home {
+	background-color: #b6b6b6;
+	height: 95vh;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontakt-home .col-lg-4 {
+/*	border:1px solid red;*/
+	height: 65vh;
+	margin-top: 15%;
+	color: #fff;
+}
+#kontakt-home  #dane-kontaktowe-all h2{
+	margin-left: 12%;
+}
+#kontakt-home .col-lg-4 #dane-kontaktowe {
+	margin-top: -3%;
+	margin-left: 10%;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row {
+	margin-top: 5%;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row a {
+	color: #fff;
+	transition: all .3s;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row a:hover {
+	color: #a9a9a9;
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe #home-icons a {
+	margin: 20px 20px;
+}
+
+#kontakt-home .col-lg-4 button {
+	font-weight: 700;
+	color: #a9a9a9;
+	margin-left: 40%;
+	margin-top: 5%;
+	transition: all .3s;
+}
+
+#kontakt-home .col-lg-4 button:hover {
+	color: #fff;
+	background-color: #a9a9a9;
+}
+
+#kontakt-home .col-lg-4 #kontakt-home-logo {
+	margin-top: 5%;
+	height: 30vh;
+	background-image: url(../img/logo3.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#kontakt-home .col-lg-4 #copy-prawa {
+	margin-top: 5%;
+}
+#kontakt-home .col-lg-4 #copy-prawa p{
+	margin-top: 5%;
+}
+
+
+/*
+	Kontakt-home style stop
+*/
+
+
+/*
+	Footer style start
+*/
+
+footer {
+	position: static;
+	height: 5vh;
+	background-color: #b6b6b6;
+}
+
+footer .container p a,
+footer .container p {
+	font-size: 10px;
+	color: #333;
+	margin-top: 1%;
+	transition: all .3s;
+}
+
+footer .container p a:hover {
+	color: #b6b6b6;
+}
+
+
+/*
+	Footer style stop
+*/

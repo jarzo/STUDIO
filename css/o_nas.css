@@ -1,0 +1,258 @@
+header#onas {
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 100vh;
+	padding-top: 100px;
+}
+
+hr {
+	background-color: #b6b6b6;
+	width: 45%
+}
+header #sprzedaz{
+margin-left: auto;
+}
+header .col-lg-4,
+.col-lg-7 {
+/*	border: 1px solid red;*/
+	height: 62vh;
+/*	margin-left: 5%;*/
+	border:none;
+}
+
+header .col-lg-4 {
+	padding-left: 110px;
+}
+
+header .col-lg-4 p{
+	color: #b6b6b6;
+	font-weight: 300;
+	font-size: 14px;
+	padding-top: 10px;
+}
+header .col-lg-4 p a, header .col-lg-4 p span{
+	color:blueviolet;
+}
+
+header .col-lg-7 figure{
+	border:10px solid #fff;
+	margin-left: 0;
+	height: 30vh;
+}
+
+header .col-lg-7 figure {
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+/*	border: 1px solid red;*/
+}
+
+header .col-lg-7 #headeronasphotoone{
+	background-image: url(../img/bluza1.png);
+}
+header .col-lg-7 #headeronasphototwo{
+	background-image: url(../img/bluza2.png);
+}
+header .col-lg-7 #headeronasphotothree{
+	background-image: url(../img/bluza1.png);
+}
+header .col-lg-7 #headeronasphotofour{
+	background-image: url(../img/bluza3.png);
+}
+header .col-lg-7 #headeronasphotofive{
+	background-image: url(../img/bluza2.png);
+}
+header .col-lg-7 #headeronasphotosix{
+	background-image: url(../img/bluza3.png);
+}
+header .container-fluid .row button{
+	margin-left: 20%;
+	color: #fff;
+	background-color: #b6b6b6;
+	border: 1px solid #b6b6b6;
+	border-radius: 25px;
+	padding: 20px 55px;
+	text-transform: uppercase;
+	font-weight: 700;
+	transition: all .3s;
+}
+header .container-fluid .row button:hover{
+	background-color: #fff;
+	color: #b6b6b6;
+}
+
+/*
+
+Stop header o nas
+
+*/
+
+/*
+
+start dlaczego my
+
+*/
+
+#dlaczego_my{
+	height: 100vh;
+}
+#dlaczego_my .container{
+	padding-left: 0;
+	padding-right: 0;
+}
+#dlaczego_my #dlaczegonaglowek{
+	padding-top: 150px;
+}
+#dlaczego_my .row .col-lg-6{
+/*	border: 1px solid red;*/
+	height: 70vh;
+}
+
+#dlaczego_my .row .col-lg-6 .wszystkie_pytania{
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#dlaczego_my .row .col-lg-6 .wszystkie_pytania .pytanie{
+	width: 60%;
+	border-bottom:1px solid #b6b6b6;
+	padding-top: 25px;
+}
+#dlaczego_my .row .col-lg-6 .wszystkie_pytania .pytanie a{
+	color: #b6b6b6;
+	text-decoration: none;
+	transition: all .3s;
+}
+#dlaczego_my .row .col-lg-6 .wszystkie_pytania .pytanie a:hover{
+	color: #000;
+}
+#dlaczego_my .row .col-lg-6 .carousel-inner>.item>img{
+	margin: auto;
+	height: 70vh;
+}
+
+#dlaczego_my .row .col-lg-6 .carousel-control {
+	color: #e7e7e7;
+}
+
+#dlaczego_my .row .col-lg-6 .carousel-control:hover {
+	color: #d7d7d7;
+}
+
+#dlaczego_my .row .col-lg-6 .carousel-control:focus {
+	color: none;
+}
+
+#dlaczego_my .row .col-lg-6 .carousel-control.left {
+	background-image: none;
+}
+
+#dlaczego_my .row .col-lg-6 .carousel-control.right {
+	background-image: none;
+}
+
+/*
+	Kontakt-home style start
+*/
+
+#kontakt-home {
+	margin-top: 5%;
+	background-color: #b6b6b6;
+	height: 90vh;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontakt-home .col-lg-4 {
+/*	border:1px solid red;*/
+	height: 65vh;
+	margin-top: 15%;
+	color: #fff;
+}
+#kontakt-home  #dane-kontaktowe-all h2{
+	margin-left: 12%;
+}
+#kontakt-home .col-lg-4 #dane-kontaktowe {
+	margin-top: -3%;
+	margin-left: 10%;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row {
+	margin-top: 5%;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row a {
+	color: #fff;
+	transition: all .3s;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row a:hover {
+	color: #a9a9a9;
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe #home-icons a {
+	margin: 20px 20px;
+}
+
+#kontakt-home .col-lg-4 button {
+	font-weight: 700;
+	color: #a9a9a9;
+	margin-left: 40%;
+	margin-top: 5%;
+	transition: all .3s;
+}
+
+#kontakt-home .col-lg-4 button:hover {
+	color: #fff;
+	background-color: #a9a9a9;
+}
+
+#kontakt-home .col-lg-4 #kontakt-home-logo {
+	margin-top: 5%;
+	height: 30vh;
+	background-image: url(../img/logo3.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#kontakt-home .col-lg-4 #copy-prawa {
+	margin-top: 5%;
+}
+#kontakt-home .col-lg-4 #copy-prawa p{
+	margin-top: 5%;
+}
+
+
+/*
+	Kontakt-home style stop
+*/
+
+
+/*
+	Footer style start
+*/
+
+footer {
+	position: static;
+	height: 5vh;
+	background-color: #b6b6b6;
+}
+
+footer .container p a,
+footer .container p {
+	font-size: 10px;
+	color: #333;
+	margin-top: 1%;
+	transition: all .3s;
+}
+
+footer .container p a:hover {
+	color: #b6b6b6;
+}
+
+
+/*
+	Footer style stop
+*/

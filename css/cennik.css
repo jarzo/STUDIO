@@ -1,0 +1,41 @@
+header#cennik{
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 95vh;
+	padding-top: 150px;
+}
+
+
+#boxcennik{
+	border:5px double #b6b6b6;
+	border-radius: 25px;
+	margin-left: 8%;
+	height: 60vh;
+	
+}
+
+/*
+	Footer style start
+*/
+
+footer {
+	position: static;
+	height: 5vh;
+	background-color: #fff;
+}
+
+footer .container p a,
+footer .container p {
+	font-size: 10px;
+	color: #333;
+	margin-top: 1%;
+	transition: all .3s;
+}
+
+footer .container p a:hover {
+	color: #b6b6b6;
+}
+
+
+/*
+	Footer style stop
+*/
