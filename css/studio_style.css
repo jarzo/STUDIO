@@ -1,10 +1,110 @@
+/*Studio*/
+section#studio{
+	height: 125vh;
+}
+#main_area{
+	padding-top: 100px;
+}
+
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:100px;
+}
+
+section#studioone, section#studiotwo{
+	height: 75vh;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+section#studiotwo{
+	height: 85vh;
+}
+section#studioone .container-fluid, section#studiotwo .container-fluid{
+	width: 90%;
+}
+
+section#studioone .container-fluid .row, section#studiotwo .container-fluid .row{
+padding-top: 80px;	
+}
+
+#studioone p {
+	font-size: 16px;
+	margin-top: 2%;
+}
+
+#studioone h4 {
+	color: #b6b6b6;
+}
+
+#studioone figure, #studiotwo figure {
+	/*	border: 1px solid red;*/
+	border: none;
+	height: 65vh;
+	width: 30%;
+	background-image: url(../img/logo.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#studiotwo .col-lg-8, #studiotwo .col-lg-4{
+	height: 65vh;
+	border: none;
+}
+
+#studiotwo figure{
+	width: 60%;
+	background-image: url(../img/Studio/ekran.jpg);
+	
+}
+#studiotwo .col-lg-4 article h2{
+	font-weight: 300;
+}
+#studiotwo .col-lg-4 article p{
+	line-height: 2em;
+	color:#b6b6b6;
+	padding-top: 25px;
+}
+
+.col-lg-8 article {
+	/*	border: 1px solid red;*/
+	width: 95%;
+	margin-top: 10%;
+	margin-left: 5%;
+	height: 55vh;
+	font-weight: 700;
+	padding-left: 9px;
+	color: #000;
+}
+
+.col-lg-8 article p {
+	margin-top: 2%;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #000;
+}
+
+.col-lg-8 article a {
+	color: #b6b6b6;
+}
+
+.col-lg-8 article .text-light {
+	font-weight: 500;
+}
+
+
+
+
+
+
 /*
 	Kontakt-home style start
 */
 
 #kontakt-home {
 	background-color: #b6b6b6;
-	height: 95vh;
+	height: 90vh;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -96,7 +196,7 @@ footer .container p {
 }
 
 footer .container p a:hover {
-	color: #fff
+	color: #fff;
 }
 
 
