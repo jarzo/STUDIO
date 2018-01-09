@@ -1,17 +1,63 @@
 header#cennik{
 	font-family: 'Roboto Condensed', sans-serif;
 	height: 95vh;
-	padding-top: 150px;
+	padding-top: 100px;
+}
+#naglowekcennik, #produktowacennik{
+	padding-left: 50px;
+}
+hr{
+	margin-left: 0;
+	width: 55%;
+	background-color: #000;
+	border:1px solid #000;
 }
 
-
-#boxcennik{
-	border:5px double #b6b6b6;
-	border-radius: 25px;
-	margin-left: 8%;
-	height: 60vh;
+div#produktowacennik #kolumn{
+	border: none;
+}
+div#produktowacennik #kolumn .bord{
+	border-bottom: 1.5px solid #b6b6b6;
+	height:50px;
+}
+div#produktowacennik .row{
+	border-bottom: 1.5px solid #b6b6b6;
+	height:50px;
+	margin-bottom: 15px;
+}
+div#produktowacennik .col-xs-2{
+	border:none;
+	font-size: 20px;
+	padding-top: 10px;
+	text-align: center;
 	
 }
+div#produktowacennik .premium{
+	line-height: 22px;
+}
+div#produktowacennik span{
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #b6b6b6;
+}
+div#produktowacennik #info{
+	border:none;
+	font-size: 18px;
+	color: #b6b6b6;
+	text-align: center;
+	padding-left: 300px;
+}
+div#porownanie{
+	border: 1px solid red;
+	height: 50vh;
+	padding: 20px;
+}
+
+div#porownanie h1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 
 /*
 	Footer style start
