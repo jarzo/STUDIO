@@ -1,16 +1,16 @@
+*{font-family: 'Roboto Condensed', sans-serif;}
 header#cennik{
-	font-family: 'Roboto Condensed', sans-serif;
 	height: 95vh;
-	padding-top: 100px;
+	padding-top: 200px;
 }
 #naglowekcennik, #produktowacennik{
 	padding-left: 50px;
 }
 hr{
 	margin-left: 0;
-	width: 55%;
-	background-color: #000;
-	border:1px solid #000;
+	width: 45%;
+	background-color: #b6b6b6;
+	border:1px solid #b6b6b6;
 }
 
 div#produktowacennik #kolumn{
@@ -45,18 +45,135 @@ div#produktowacennik #info{
 	font-size: 18px;
 	color: #b6b6b6;
 	text-align: center;
-	padding-left: 300px;
+	margin-left: 50%;;
 }
 div#porownanie{
-	border: 1px solid red;
-	height: 50vh;
-	padding: 20px;
+/*	border: 1px solid red;*/
+	border:none;
+	height: 60vh;
+	padding-left: 20px;
+	margin-left:20%;
 }
 
 div#porownanie h1{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #b6b6b6;
 }
+div#porownanie h2 span{
+	color: #b6b6b6;
+}
+/*usługi dodatkowe*/
+section#uslugidodatkowe{
+	height: 95vh;
+	padding-top: 100px;
+}
+#dodatek{
+	margin-left: 7%;
+}
+
+div#naglowekdodatkowe hr{
+	width: 40%;
+}
+#dodatek .podcen{
+	border-bottom: 1.5px solid #b6b6b6;
+	height: 8vh;
+}
+div.col-xs-6{
+	font-size: 20px;
+}
+div.cenad{
+/*	text-align: center;*/
+	padding-top: 15px;
+	color: #b6b6b6;
+}
+div.padd{
+	padding-top: 15px;
+}
+div.notka{
+	padding-top: 100px;
+	margin-left: 15%;
+	font-size: 12px;
+	color: #b6b6b6;
+}
+/*
+	Kontakt-home style start
+*/
+
+#kontakt-home {
+/*	margin-top: 5%;*/
+	background-color: #b6b6b6;
+	height: 90vh;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontakt-home .col-lg-4 {
+/*	border:1px solid red;*/
+	height: 65vh;
+	margin-top: 15%;
+	color: #fff;
+}
+#kontakt-home  #dane-kontaktowe-all h2{
+	margin-left: 12%;
+}
+#kontakt-home .col-lg-4 #dane-kontaktowe {
+	margin-top: -3%;
+	margin-left: 10%;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row {
+	margin-top: 5%;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row a {
+	color: #fff;
+	transition: all .3s;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe .row a:hover {
+	color: #a9a9a9;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+#kontakt-home .col-lg-4 #dane-kontaktowe #home-icons a {
+	margin: 20px 20px;
+}
+
+#kontakt-home .col-lg-4 button {
+	font-weight: 700;
+	color: #a9a9a9;
+	margin-left: 40%;
+	margin-top: 5%;
+	transition: all .3s;
+}
+
+#kontakt-home .col-lg-4 button:hover {
+	color: #fff;
+	background-color: #a9a9a9;
+}
+
+#kontakt-home .col-lg-4 #kontakt-home-logo {
+	margin-top: 5%;
+	height: 30vh;
+	background-image: url(../img/logo3.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#kontakt-home .col-lg-4 #copy-prawa {
+	margin-top: 5%;
+}
+#kontakt-home .col-lg-4 #copy-prawa p{
+	margin-top: 5%;
+}
+
+
+/*
+	Kontakt-home style stop
+*/
 
 
 /*
@@ -66,7 +183,7 @@ div#porownanie h1{
 footer {
 	position: static;
 	height: 5vh;
-	background-color: #fff;
+	background-color: #b6b6b6;
 }
 
 footer .container p a,
@@ -78,7 +195,7 @@ footer .container p {
 }
 
 footer .container p a:hover {
-	color: #b6b6b6;
+	color: #fff;
 }
 
 
